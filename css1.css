@@ -170,7 +170,7 @@ figcaption {
     transform: translate(-50%,0);
   }
 
-.parti, .tees {font-size: 32px;}
+.parti, .tees {font-size: 24px;}
 
 figcaption {
   font-size: 20px;
@@ -181,7 +181,7 @@ figcaption {
 }
 
 .dropdown-p {
-  font-size: 28px;
+  font-size: 20px;
   font-weight:400;
   line-height: 40px;
 
