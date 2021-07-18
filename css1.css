@@ -1,3 +1,5 @@
+@import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+*{font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Helvetica Neue', 'Segoe UI', 'Apple SD Gothic Neo', 'Noto Sans KR', 'Malgun Gothic', sans-serif;}
 ::selection {background-color: black; color: white;}
 body {
   background-color: #ffffff;
@@ -17,7 +19,9 @@ body {
 .header {
   display: block;
   position: fixed;
-  font-family: sans-serif;
+
+  font-family: Pretendard;
+  font-weight:400;
   font-size: 40px;
   margin: 0;
   padding: 0;
