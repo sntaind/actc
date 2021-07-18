@@ -33,9 +33,10 @@ p {padding: 0; margin: 0;}
   position: fixed;
   top: 5px;
 }
-.parti {
-left: 10px;
-cursor: help;
+
+input[type="checkbox"] + label , .parti {
+  left: 10px;
+  cursor: help;
 }
 
 .dropdown-p {
@@ -46,14 +47,17 @@ cursor: help;
   display: none;
   position: absolute;
   background-color: white;
+  top: 50px;
+  left: 8px;
 
   width: 250px;
 
-  padding: 5px 25px 20px 3px;
+  padding: 5px 25px 10px 3px;
   z-index: 1;
 }
-
-.parti:hover .dropdown-p {
+input[type="checkbox"]{display:none;}
+input[id="bt-parti"]:checked ~ .dropdown-p {
+  transition: 0.3s linear;
   display: block;
   cursor: help;
 }
@@ -155,11 +159,21 @@ figcaption {
   vertical-align: middle;
 }
 
-@media screen and (max-width: 795px) {
-.parti, .tees {font-size: 24px;}
+@media (max-width: 900px) {
+
+  .logo {
+    position: fixed;
+    top:0;
+    left: 50%;
+    width: 45px;
+    height: auto;
+    transform: translate(-50%,0);
+  }
+
+.parti, .tees {font-size: 30px;}
 
 figcaption {
-  font-size: 18px;
+  font-size: 20px;
   text-align: center;
   line-height: 24px;
 
