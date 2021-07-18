@@ -229,7 +229,7 @@ figcaption {
   height: auto;
   grid-gap: 5px;
   grid-template-columns: 1fr 1fr ;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto;
 }
 .products > div > img {
   width: 50vw;
