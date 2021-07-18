@@ -1,5 +1,5 @@
 @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
-*{font-family: Pretendard;}
+*{font-family: Pretendard; word-break: keep-all; }
 
 ::selection {background-color: black; color: white;}
 body {
@@ -18,7 +18,7 @@ p {padding: 0; margin: 0;}
   position: fixed;
   top:0;
   left: 50%;
-  width: 100px;
+  width: 60px;
   height: auto;
   transform: translate(-50%,0);
 }
@@ -118,12 +118,12 @@ right: 10px;
   display: grid;
   z-index: -8;
   width: 100vw;
-
-  margin: 75px auto 10px auto;
+  margin: 75px auto 50px auto;
 
   height: auto;
+  gap: 5px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr ;
+  grid-template-rows: auto auto 2fr;
 }
 
 .products > div > img {
@@ -139,16 +139,31 @@ figcaption {
   text-align: center;
   line-height: 34px;
 
-  padding: 5px 0 50px 0;
+  padding: 0px 0 25px 0;
 }
 
 .footer {
   font-size: 30px;
   position: fixed;
   bottom:0;
+  margin: 0;
+  padding: 0;
   color: white;
   background-color: black;
-  height: 3vh;
+  height: 38px;
   width: 100vw;
   vertical-align: middle;
+}
+
+@media screen and (max-width: 795px) {
+.parti, .tees {font-size: 24px;}
+
+figcaption {
+  font-size: 18px;
+  text-align: center;
+  line-height: 24px;
+
+  padding: 3px 0 15px 0;
+}
+
 }
