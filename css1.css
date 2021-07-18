@@ -234,4 +234,17 @@ figcaption {
 .products > div > img {
   width: 50vw;
 }
+
+.footer {
+  font-size: 20px;
+  position: fixed;
+  bottom:0;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  height: 26px;
+  width: 100vw;
+  vertical-align: middle;
+}
 }
