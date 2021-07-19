@@ -48,7 +48,6 @@ input[type="checkbox"] + label , .parti {
   display: none;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.95);
-  background
   top: 50px;
   left: 8px;
 
@@ -159,6 +158,25 @@ figcaption {
   height: 38px;
   width: 100vw;
   vertical-align: middle;
+}
+
+.credit {
+  display: block;
+  position: fixed;
+  left: 15px;
+  bottom: 50px;
+  font-size: 14px;
+  transform: translate(-50%,0%);
+  writing-mode: vertical-lr;
+}
+.credit2 {
+  display: block;
+  position: fixed;
+  right: 5px;
+  bottom: 50px;
+  font-size: 14px;
+  transform: translate(0%,0%);
+  writing-mode: vertical-lr;
 }
 
 @media (max-width: 900px) {
