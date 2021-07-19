@@ -267,4 +267,23 @@ figcaption {
   width: 100vw;
   vertical-align: middle;
 }
+
+.credit {
+  display: block;
+  position: fixed;
+  left: 10px;
+  bottom: 32px;
+  font-size: 10px;
+  transform: translate(-50%,0%);
+  writing-mode: vertical-lr;
+}
+.credit2 {
+  display: block;
+  position: fixed;
+  right: 3px;
+  bottom: 32px;
+  font-size: 10px;
+  transform: translate(0%,0%);
+  writing-mode: vertical-lr;
+}
 }
