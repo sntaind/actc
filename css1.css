@@ -175,17 +175,18 @@ figcaption {
   height: 38px;
   width: 100vw;
   vertical-align: middle;
-  whitespace: nowrap;
 }
 
 .credit2 {
   display: block;
   position: fixed;
   right: 5px;
-  bottom: 50px;
+  bottom: 53px;
   font-size: 14px;
   transform: translate(0%, 0%);
   writing-mode: vertical-lr;
+  whitespace: nowrap;
+
 }
 
 .pdimg {
