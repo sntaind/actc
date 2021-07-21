@@ -175,6 +175,7 @@ figcaption {
   height: 38px;
   width: 100vw;
   vertical-align: middle;
+  whitespace: nowrap;
 }
 
 .credit2 {
